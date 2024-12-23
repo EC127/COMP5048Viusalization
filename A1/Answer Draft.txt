@@ -1,0 +1,27 @@
+The data selected in this assignment is "Data_Breaches_EN_V2_2004_2017_20180220.csv"[1]. The data describe details of major data breaches incidents between year 2014 and year 2017. The whole data set contains 270 incidents (rows) and 11 attributes (columns). In each row an incident of data breach is represented and information like name of organization, year, number of records lost from the breach, organization's sector... is stored in 11 columns. The three main data types are Nominal, Interval and Ratio.
+
+The data used is derived from data "IIB Data Breaches - LATEST"[2], with improvements made like fixed inconsistent values and broken links, adjusted level of variables by Carlos E. Jimenez-Gomez[3]. The original data in "IIB Data Breaches - LATEST" is collected by David McCandless, Tom Evans, Paul Barton
+using sources from multiple media on "Information is Beautiful" website[4].
+
+The consumers of the data are professionals in cybersecurity, IT, risk management industries and official working in government security sector. 
+
+They need this dataset to understand the key detail information about data breaches that have great impact. Attributes like reason, affected business sector, scale of impact would help them assess the incident in a clear and direct way. 
+
+Through deeper analysis, patterns, trends, or key characteristics could be discovered for their benefit to conduct reports, counter measures, predictions. Visualisation is a major usage of the dataset for them to present their findings.
+
+The data are typically depicted or conveyed to audience using bubble chart (examples shown at the end of this section). In this form of visualization, the main attributes are : name of the organization, name of sector impacted on, number of records lost,  year, and methods of leak (reason). Number of records lost is ratio data, year is interval data and the rest is nominal data. Typically, all attributes' data are shown when user hover to a bubble as a highlight interaction. Specifically, the name of the organization are always shown for each bubble if there is enough space. The differeniation of sectors are done by assigning same color to bubbles with the same sector. Ratio data like number of records lost is shown by assigning sizes to bubbles accordingly. The visualization method can be justified using a visualization reference table by Łukasz Halik[5]. It is reasonable to represent selective percetion, in this case, sectors, using color. And for quantiitaive data like number of records lost, using sizes is a good way. 
+
+The questions that are typically asked and answered for the above visualization are: What quantities of records are compromised by organization, sector[3][5]? What is the reason behind them[3][5]?
+
+One typically mistakes people make is they use too much of the data[4] without proper filtering the data. There are visualizations using the original whole set of data (from 2004 to 2024) with more than 30 thousands of records, and this cause an overwhelm percpetion of information when an user view the visusalization.
+
+Another mistake is poor selction of color[4, 6]. These visualizations is not color-blind friendly and there are uses of simliar colors which make user hard to tell the diffenerce. 
+
+Last but not the least, visualizations on the data are typically a lack of direct representation of attibutes without user using interaction. Most viusalization engage this matter by spliting relationships in mutiple graphs, casuing inefficient in represenation.
+
+In this symbolic representations from Semiology of Graphics, the visualization should be in some kind of arrangement. It has quantitative variable Records Lost represented in size, Method of Leak represented in different colors, Entity (name of organization) represented as text, and two filters for year and sector for user to interact and represent these attribuute by filtering.
+
+For a certain arrangement, combined with former typical visualization, it is reasonable to use bubble chart. Since Record Lost is a quantitative data and one major point of the visualization is to show this attribute in a direct way, assigning it with bubble size would be beneficial. To make color recognizeable and color-blind friendly, Method of Leak is assigned to it because the total categories of Method is suitable for color-blind friendly pattlet. And Method is a selecive data. Entity and sector are assign to text to fully express the information. Two filters are applied so the use can interact with the visualization to alter the way of presentation by year and sector according to their needs. These two attributes are represented in the form of interation and comparison betweern actions.
+
+In this case, I use two symbolic representations. Sector and year are derived to create another represenation with Records Lost. Together, they are the same attribute with representations in task 6. And they share the same KGI as well as KPI.
+
